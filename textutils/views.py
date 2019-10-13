@@ -4,7 +4,7 @@ import operator
 
 
 def homepage(request):
-    return render(request, 'home.html')
+    return render(request, 'index.html')
 
 
 def count(request):
